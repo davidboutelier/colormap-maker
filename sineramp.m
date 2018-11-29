@@ -99,7 +99,7 @@
 
 function im = sineramp2(sze, amp, wavelen, p)
 
-    if ~exist('sze','var'),  sze = [256 512]; end
+    if ~exist('sze','var'),  sze = [128 256]; end
     if ~exist('amp','var'),  amp = 12.5;      end
     if ~exist('wavelen','var'), wavelen = 8;  end
     if ~exist('p','var'),    p = 2;           end
